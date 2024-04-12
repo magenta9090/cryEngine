@@ -1,0 +1,9 @@
+{% extends "timetrackr/base.html" %}
+{% block content %}
+<ul>
+    {% for work in works %}
+    <li>{{work}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
